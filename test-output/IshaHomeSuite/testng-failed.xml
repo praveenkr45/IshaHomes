@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IshaHomeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="chrometest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_001_NavigateToCompletedProject">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigate"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_001_NavigateToCompletedProject -->
+      <class name="testCases.TC_006_ReadAndDisplayEmail">
+        <methods>
+          <include name="tearDown"/>
+          <include name="displayEmail"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_006_ReadAndDisplayEmail -->
+      <class name="testCases.TC_005_VerifyContactText">
+        <methods>
+          <include name="verify_ContactUs"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_005_VerifyContactText -->
+      <class name="testCases.TC_004_MouseHoverToContact">
+        <methods>
+          <include name="mouseHover"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_004_MouseHoverToContact -->
+      <class name="testCases.TC_003_DisplayEnquirePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="displayEnquireNow"/>
+        </methods>
+      </class> <!-- testCases.TC_003_DisplayEnquirePage -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [IshaHomeSuite] -->

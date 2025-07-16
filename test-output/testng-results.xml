@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-13T16:59:56 IST" name="Isha-Home Suite" finished-at="2025-07-13T17:01:06 IST" duration-ms="69658">
+    <groups>
+    </groups>
+    <test started-at="2025-07-13T16:59:56 IST" name="chrometest" finished-at="2025-07-13T17:00:32 IST" duration-ms="35579">
+      <class name="testCases.TC_001_NavigateToCompletedProject">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_NavigateToCompletedProject@49438269]" started-at="2025-07-13T16:59:56 IST" name="setup" finished-at="2025-07-13T17:00:05 IST" duration-ms="8911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigate()[pri:0, instance:testCases.TC_001_NavigateToCompletedProject@49438269]" started-at="2025-07-13T17:00:05 IST" name="navigate" finished-at="2025-07-13T17:00:12 IST" duration-ms="7371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_NavigateToCompletedProject@49438269]" started-at="2025-07-13T17:00:27 IST" name="tearDown" finished-at="2025-07-13T17:00:32 IST" duration-ms="4861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_NavigateToCompletedProject -->
+      <class name="testCases.TC_006_ReadAndDisplayEmail">
+        <test-method signature="displayEmail()[pri:0, instance:testCases.TC_006_ReadAndDisplayEmail@24aed80c]" started-at="2025-07-13T17:00:25 IST" name="displayEmail" finished-at="2025-07-13T17:00:27 IST" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayEmail -->
+      </class> <!-- testCases.TC_006_ReadAndDisplayEmail -->
+      <class name="testCases.TC_005_VerifyContactText">
+        <test-method signature="verify_ContactUs()[pri:0, instance:testCases.TC_005_VerifyContactText@2aceadd4]" started-at="2025-07-13T17:00:23 IST" name="verify_ContactUs" finished-at="2025-07-13T17:00:25 IST" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ContactUs -->
+      </class> <!-- testCases.TC_005_VerifyContactText -->
+      <class name="testCases.TC_002_CountTotalProjects">
+        <test-method signature="count_project()[pri:0, instance:testCases.TC_002_CountTotalProjects@5dda768f]" started-at="2025-07-13T17:00:12 IST" name="count_project" finished-at="2025-07-13T17:00:14 IST" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count_project -->
+      </class> <!-- testCases.TC_002_CountTotalProjects -->
+      <class name="testCases.TC_003_DisplayEnquirePage">
+        <test-method signature="displayEnquireNow()[pri:0, instance:testCases.TC_003_DisplayEnquirePage@7a8c8dcf]" started-at="2025-07-13T17:00:14 IST" name="displayEnquireNow" finished-at="2025-07-13T17:00:19 IST" duration-ms="4917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayEnquireNow -->
+      </class> <!-- testCases.TC_003_DisplayEnquirePage -->
+      <class name="testCases.TC_004_MouseHoverToContact">
+        <test-method signature="mouseHover()[pri:0, instance:testCases.TC_004_MouseHoverToContact@24269709]" started-at="2025-07-13T17:00:19 IST" name="mouseHover" finished-at="2025-07-13T17:00:23 IST" duration-ms="4136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHover -->
+      </class> <!-- testCases.TC_004_MouseHoverToContact -->
+    </test> <!-- chrometest -->
+    <test started-at="2025-07-13T17:00:32 IST" name="edgetest" finished-at="2025-07-13T17:01:06 IST" duration-ms="34019">
+      <class name="testCases.TC_001_NavigateToCompletedProject">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_NavigateToCompletedProject@f79e]" started-at="2025-07-13T17:00:32 IST" name="setup" finished-at="2025-07-13T17:00:41 IST" duration-ms="8891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigate()[pri:0, instance:testCases.TC_001_NavigateToCompletedProject@f79e]" started-at="2025-07-13T17:00:41 IST" name="navigate" finished-at="2025-07-13T17:00:48 IST" duration-ms="7289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_NavigateToCompletedProject@f79e]" started-at="2025-07-13T17:01:02 IST" name="tearDown" finished-at="2025-07-13T17:01:06 IST" duration-ms="4146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_NavigateToCompletedProject -->
+      <class name="testCases.TC_006_ReadAndDisplayEmail">
+        <test-method signature="displayEmail()[pri:0, instance:testCases.TC_006_ReadAndDisplayEmail@26b3fd41]" started-at="2025-07-13T17:01:00 IST" name="displayEmail" finished-at="2025-07-13T17:01:02 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayEmail -->
+      </class> <!-- testCases.TC_006_ReadAndDisplayEmail -->
+      <class name="testCases.TC_005_VerifyContactText">
+        <test-method signature="verify_ContactUs()[pri:0, instance:testCases.TC_005_VerifyContactText@192c3f1e]" started-at="2025-07-13T17:00:58 IST" name="verify_ContactUs" finished-at="2025-07-13T17:01:00 IST" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ContactUs -->
+      </class> <!-- testCases.TC_005_VerifyContactText -->
+      <class name="testCases.TC_002_CountTotalProjects">
+        <test-method signature="count_project()[pri:0, instance:testCases.TC_002_CountTotalProjects@7ee8290b]" started-at="2025-07-13T17:00:48 IST" name="count_project" finished-at="2025-07-13T17:00:50 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count_project -->
+      </class> <!-- testCases.TC_002_CountTotalProjects -->
+      <class name="testCases.TC_003_DisplayEnquirePage">
+        <test-method signature="displayEnquireNow()[pri:0, instance:testCases.TC_003_DisplayEnquirePage@1f59a598]" started-at="2025-07-13T17:00:50 IST" name="displayEnquireNow" finished-at="2025-07-13T17:00:54 IST" duration-ms="4697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayEnquireNow -->
+      </class> <!-- testCases.TC_003_DisplayEnquirePage -->
+      <class name="testCases.TC_004_MouseHoverToContact">
+        <test-method signature="mouseHover()[pri:0, instance:testCases.TC_004_MouseHoverToContact@1e178745]" started-at="2025-07-13T17:00:54 IST" name="mouseHover" finished-at="2025-07-13T17:00:58 IST" duration-ms="3684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHover -->
+      </class> <!-- testCases.TC_004_MouseHoverToContact -->
+    </test> <!-- edgetest -->
+  </suite> <!-- Isha-Home Suite -->
+</testng-results>
